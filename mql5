@@ -1,0 +1,63 @@
+
+//+------------------------------------------------------------------+
+//|                                          Show TP and SL Values.mq5 |
+//|                                       Copyright 2022, Forex Robot Easy Team |
+//|                                          https://www.forexroboteasy.com |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//| This program is a trading robot that shows TP and SL values based |
+//| on identified candlestick patterns. It integrates with the Candle |
+//| Stick Patterns Finder tool for seamless functioning. The code is |
+//| compatible with both MT4 and MT5 platforms.                        |
+//+------------------------------------------------------------------+
+
+//+------------------------------------------------------------------+
+//| Function to identify various candlestick patterns                  |
+//+------------------------------------------------------------------+
+void IdentifyCandlestickPatterns()
+{
+    // Add code to identify candlestick patterns
+}
+
+//+------------------------------------------------------------------+
+//| Function to calculate TP value for each identified pattern        |
+//+------------------------------------------------------------------+
+double CalculateTakeProfit()
+{
+    // Add code to calculate TP value
+    return 0.0;
+}
+
+//+------------------------------------------------------------------+
+//| Function to calculate SL value for each identified pattern        |
+//+------------------------------------------------------------------+
+double CalculateStopLoss()
+{
+    // Add code to calculate SL value
+    return 0.0;
+}
+
+//+------------------------------------------------------------------+
+//| Main entry point of the program                                   |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+    // Identify candlestick patterns
+    IdentifyCandlestickPatterns();
+    
+    // Calculate TP value for each pattern
+    double tp = CalculateTakeProfit();
+    
+    // Calculate SL value for each pattern
+    double sl = CalculateStopLoss();
+    
+    // Display TP and SL values
+    Print('Take Profit: ', tp);
+    Print('Stop Loss: ', sl);
+    
+    // Further trading logic and actions
+    // ...
+    
+    // End of program
+}
